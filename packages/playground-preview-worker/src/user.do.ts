@@ -88,6 +88,7 @@ export class UserSession {
 				worker
 			);
 		} catch (e) {
+			console.error(`Upload failed for worker "${name}", retrying after token refresh:`, e);
 			// Try to recover _once_ from failure. This captures expired tokens, but means that genuine failures won't cause
 			// a request loop and will return an error to the user
 			await this.refreshTokens();
@@ -176,8 +177,8 @@ export class UserSession {
 		let uploadedMetadata: UploadedMetadata;
 		try {
 			uploadedMetadata = UploadedMetadata.parse(JSON.parse(await m.text()));
-		} catch {
-			throw new BadUpload("Expected metadata file to be valid");
+		} catch (e) {
+			throw new BadUpload(`Expected metadata file to be valid`, String(e));
 		}
 
 		if (
