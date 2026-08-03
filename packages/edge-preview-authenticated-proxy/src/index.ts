@@ -414,7 +414,11 @@ export default {
 		try {
 			return await handleRequest(request, env, ctx);
 		} catch (e) {
-			console.error(e);
+			const url = new URL(request.url);
+			console.error(
+				`Error handling request: ${request.method} ${url.pathname}`,
+				e
+			);
 			if (e instanceof HttpError) {
 				if (e.reportable) {
 					sentry.setContext("Details", e.data);

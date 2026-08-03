@@ -314,7 +314,11 @@ app.all(`${previewDomain}/*`, async (c) => {
 app.all(`${rootDomain}/*`, (c) => fetch(c.req.raw));
 
 app.onError((e, c) => {
-	console.log("ONERROR");
+	const url = new URL(c.req.url);
+	console.error(
+		`Error handling request: ${c.req.method} ${url.pathname}`,
+		e
+	);
 	const sentry = c.get("sentry");
 	const registry = c.get("prometheus");
 
