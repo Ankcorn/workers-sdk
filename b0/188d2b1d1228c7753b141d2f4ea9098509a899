@@ -1,0 +1,23 @@
+packages/config/src/inference.ts
+  s_66e80891a5ecb5::t_1f322f99c7707d 17-25,108
+packages/miniflare/src/plugins/index.ts
+  s_66e80891a5ecb5::t_348469fb91d675 8-11,72,139
+packages/wrangler/src/__tests__/type-generation.test.ts
+  s_66e80891a5ecb5::t_303fe0fffad476 556,804,925,1109
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b0188d2b1d1228c7753b141d2f4ea9098509a899",
+  "prompts": {},
+  "sessions": {
+    "s_66e80891a5ecb5": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a04771-c879-7513-bab6-68971d48b258",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Thomas Ankcorn <tankcorn@cloudflare.com>"
+    }
+  }
+}
