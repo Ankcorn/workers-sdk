@@ -1,0 +1,81 @@
+packages/config/src/inference.ts
+  s_66e80891a5ecb5::t_1f322f99c7707d 14-22,105
+packages/miniflare/src/plugins/index.ts
+  s_66e80891a5ecb5::t_348469fb91d675 8-11,71,137
+packages/wrangler/src/__tests__/type-generation.test.ts
+  s_66e80891a5ecb5::t_303fe0fffad476 556,804,925,1109
+.changeset/analytics-sql-binding.md
+  s_66e80891a5ecb5::t_24585175a6dc3a 1-11
+packages/config/src/__tests__/convert.test.ts
+  s_66e80891a5ecb5::t_8f4924444d86f1 163,173
+packages/config/src/__tests__/schema.test.ts
+  s_66e80891a5ecb5::t_55c59abffc9469 52,130
+packages/config/src/bindings.ts
+  s_66e80891a5ecb5::t_31237a30a5ed82 620-629,874-875,947
+packages/config/src/convert.ts
+  s_66e80891a5ecb5::t_dda0f165447128 691-697
+packages/config/src/public.ts
+  s_66e80891a5ecb5::t_d97a8420f849f5 14
+packages/config/src/schema.ts
+  s_66e80891a5ecb5::t_110ecd121220cf 234-237,310
+packages/config/src/types.ts
+  s_66e80891a5ecb5::t_90114c5a2a8652 15,75
+packages/workers-utils/src/binding-utils.ts
+  s_66e80891a5ecb5::t_4b3b86a299f71f 256-260
+packages/deploy-helpers/src/deploy/helpers/check-remote-secrets-override.ts
+  s_66e80891a5ecb5::t_18fbe8a6bf3d03 132-133
+packages/deploy-helpers/src/deploy/helpers/config-diffs.ts
+  s_66e80891a5ecb5::t_96a434495ec451 59,262
+packages/deploy-helpers/src/deploy/helpers/create-worker-upload-form.ts
+  s_66e80891a5ecb5::t_8583864202272c 138,402-408
+packages/workers-utils/src/print-bindings.ts
+  s_66e80891a5ecb5::t_36246ae4a4c0c6 88,365-375
+packages/miniflare/src/config/v4-convert.ts
+  s_66e80891a5ecb5::t_e5b0a1ec1db4b4 670-675
+packages/miniflare/src/config/v4-schema.ts
+  s_66e80891a5ecb5::t_ba072c8ee37e5c 509,894
+packages/miniflare/src/plugins/analytics-sql/index.ts
+  s_66e80891a5ecb5::t_8f3221a48e42e5 1-50
+packages/workers-utils/src/config/binding-local-support.ts
+  s_66e80891a5ecb5::t_09efb0b5fa7e42 76
+packages/workers-utils/src/config/config.ts
+  s_66e80891a5ecb5::t_edab0c7ccfc60e 378
+packages/workers-utils/src/config/environment.ts
+  s_66e80891a5ecb5::t_92a73658662e60 1381-1399
+packages/workers-utils/src/config/validation.ts
+  s_66e80891a5ecb5::t_ab6ac8e1e0c71a 99,141,201,1877-1886,3441
+packages/workers-utils/src/map-worker-metadata-bindings.ts
+  s_66e80891a5ecb5::t_25771e9e6fa010 308-314
+packages/workers-utils/src/types.ts
+  s_66e80891a5ecb5::t_2719e79748a764 27,90,485
+packages/workers-utils/src/worker.ts
+  s_66e80891a5ecb5::t_529455aec737dc 275-279
+packages/workers-utils/tests/config/validation/normalize-and-validate-config.test.ts
+  s_66e80891a5ecb5::t_872dea12014476 143,3599-3625
+packages/wrangler/src/__tests__/create-worker-upload-form/bindings.test.ts
+  s_66e80891a5ecb5::t_9a8fad42de43f9 307
+packages/wrangler/src/api/startDevWorker/utils.ts
+  s_66e80891a5ecb5::t_99671a7cfe0ca0 394
+packages/wrangler/src/dev/miniflare/index.ts
+  s_66e80891a5ecb5::t_5389945fd2160c 438,561,696-699,834-842
+packages/wrangler/src/type-generation/index.ts
+  s_66e80891a5ecb5::t_6bb301e694d783 48-50,2466-2484,3686-3703
+packages/wrangler/src/utils/add-created-resource-config.ts
+  s_66e80891a5ecb5::t_6965f455d92d3b 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e75458632b652b3272fb89f01da37539973aec03",
+  "prompts": {},
+  "sessions": {
+    "s_66e80891a5ecb5": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a04771-c879-7513-bab6-68971d48b258",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Thomas Ankcorn <tankcorn@cloudflare.com>"
+    }
+  }
+}
